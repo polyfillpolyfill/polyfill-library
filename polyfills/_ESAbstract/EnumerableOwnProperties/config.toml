@@ -1,0 +1,24 @@
+dependencies = [
+	"_ESAbstract.Get",
+	"_ESAbstract.Type",
+	"Object.getOwnPropertyDescriptor",
+	"Object.keys"
+]
+spec = "https://tc39.github.io/ecma262/#sec-enumerableownproperties"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "*"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "*"

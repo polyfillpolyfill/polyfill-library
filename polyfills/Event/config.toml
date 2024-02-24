@@ -1,0 +1,23 @@
+aliases = [
+	"default-3.3",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default"
+]
+dependencies = [
+	"Array.prototype.includes"
+]
+docs = "https://developer.mozilla.org/en/docs/Web/API/Event"
+notes = [
+	"Where necessary, also adds the [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) methods `addEventListener`, `removeEventListener` and `dispatchEvent`."
+]
+
+[browsers]
+firefox = "6 - 10"
+firefox_mob = "6 - 10"
+ie = ">=6"
+ie_mob = "<11"
+opera = "10 - 11.5"
+safari = "4.0 - 7.0"
+ios_saf = "3.2 - 7.0"

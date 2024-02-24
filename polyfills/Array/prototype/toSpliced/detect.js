@@ -1,0 +1,1 @@
+'toSpliced' in Array.prototype

@@ -1,0 +1,19 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [ "_ESAbstract.CreateMethodProperty", "_ESAbstract.ToUint32" ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32"
+spec = "https://tc39.github.io/ecma262/#sec-math.clz32"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<38"
+firefox = "<31"
+firefox_mob = "<31"
+ie = "*"
+ie_mob = "*"
+opera = "<25"
+op_mob = "<25"
+op_mini = "*"
+safari = "<7.0"
+ios_saf = "<7.0"
+samsung_mob = "<3.0"

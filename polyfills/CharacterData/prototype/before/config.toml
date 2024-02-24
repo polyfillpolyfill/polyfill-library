@@ -1,0 +1,22 @@
+aliases = []
+dependencies = [ "Element.prototype.before" ]
+
+spec = "https://dom.spec.whatwg.org/#dom-childnode-before"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData/before"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<54"
+edge = "<17"
+edge_mob = "<17"
+firefox = "<49"
+firefox_mob = "<49"
+ie = "*"
+ie_mob = "*"
+opera = "<39"
+op_mob = "<41"
+op_mini = "*"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<6.0"

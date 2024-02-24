@@ -1,0 +1,19 @@
+aliases = [
+	"dom4",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default",
+]
+dependencies = [ ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Node/isSameNode"
+
+[browsers]
+bb = "*"
+firefox = "<48"
+firefox_mob = "<48"
+ie = "<9"
+ie_mob = "<9"
+opera = "<12.1"
+op_mob = "<12.1"
+safari = "<3.0"

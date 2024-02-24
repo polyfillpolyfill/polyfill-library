@@ -1,0 +1,8 @@
+aliases = [ "caniuse:console-basic" ]
+dependencies = [ "console" ]
+spec = "https://console.spec.whatwg.org"
+docs = "https://developer.mozilla.org/en/docs/Web/API/console"
+
+[browsers]
+firefox = "<39"
+ie = "*"

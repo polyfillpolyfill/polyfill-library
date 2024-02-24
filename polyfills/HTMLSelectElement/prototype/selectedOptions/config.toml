@@ -1,0 +1,33 @@
+#### Aliases
+aliases = []
+
+#### Dependencies
+dependencies = [ ]
+
+notes = [
+	"Polyfill does not return a live HTMLCollection, only a static NodeList that has the same methods as an HTMLCollection",
+]
+
+#### Specification Link
+spec = "https://html.spec.whatwg.org/multipage/form-elements.html#dom-select-selectedoptions"
+
+#### Documentation Link
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedOptions"
+
+#### License
+license = "MIT"
+
+#### Browser compatibility
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<19"
+firefox = "<26"
+firefox_mob = "<26"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<9"
+op_mini = "<10.1"
+safari = "<6.0"
+ios_saf = "<6.0"
+samsung_mob = "<1.5"

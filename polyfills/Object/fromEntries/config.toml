@@ -1,0 +1,28 @@
+aliases = ["es2019"]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.RequireObjectCoercible",
+	"_ESAbstract.ToPropertyKey",
+	"_ESAbstract.CreateDataPropertyOrThrow",
+	"_ESAbstract.AddEntriesFromIterable",
+	"Array.prototype.@@iterator"
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries"
+spec = "https://tc39.github.io/ecma262/#sec-object.fromentries"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<73"
+edge = "*"
+edge_mob = "*"
+firefox = "<63"
+firefox_mob = "<63"
+ie = "*"
+ie_mob = "*"
+opera = "<60"
+op_mob = "<52"
+op_mini = "*"
+safari = "<12.1"
+ios_saf = "<12.2"
+samsung_mob = "<11.0"

@@ -1,0 +1,22 @@
+aliases = []
+dependencies = [ "Object.getOwnPropertyDescriptor" ]
+
+spec = "https://dom.spec.whatwg.org/#dom-nondocumenttypechildnode-previouselementsibling"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData/previousElementSibling"
+
+[browsers]
+android = "<4.4"
+bb = "*"
+chrome = "<29"
+edge = "<17"
+edge_mob = "<17"
+firefox = "<25"
+firefox_mob = "<25"
+ie = "*"
+ie_mob = "*"
+opera = "<16"
+op_mob = "<16"
+op_mini = "*"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<2.0"

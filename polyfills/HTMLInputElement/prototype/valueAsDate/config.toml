@@ -1,0 +1,38 @@
+#### Aliases
+aliases = []
+
+#### Dependencies
+dependencies = [
+	"Object.getOwnPropertyDescriptor"
+]
+
+#### Specification Link
+spec = "https://html.spec.whatwg.org/multipage/input.html#common-input-element-apis"
+
+#### Documentation Link
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement#properties"
+
+#### License
+license = "MIT"
+
+#### Notes
+notes = [
+	"Safari older than 10.1 does not allow re-defining 'HTMLInputElement.prototype.valueAsDate'.",
+	"Browsers that do not support date|month|week|time also won't have type property support. This implies we have to look at the attribute of the element. Setting the property without updating the attribute will have unexpected behaviour."
+]
+
+#### Browser compatibility
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<43"
+firefox = "*"
+firefox_mob = "*"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<12.1"
+op_mob = "<12.1"
+op_mini = "*"
+safari = ">=10.1" # Last checked with Safari 15.5 which didn't yet support week and month types.
+ios_saf = "<4.0"
+samsung_mob = "<4.0"

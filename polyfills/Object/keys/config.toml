@@ -1,0 +1,26 @@
+aliases = [
+	"es5",
+	"modernizr:es5object",
+	"default-3.3",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default",
+	"blissfuljs"
+]
+dependencies = [ "_ESAbstract.CreateMethodProperty" ]
+repo = "https://github.com/es-shims/object-keys"
+license = "MIT"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+spec = "https://tc39.github.io/ecma262/#sec-object.keys"
+
+[browsers]
+chrome = "<47"
+firefox = "<38"
+firefox_mob = "<38"
+ie = "*"
+opera = "<34"
+op_mob = "<34"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<5.0"

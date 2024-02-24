@@ -1,0 +1,27 @@
+aliases = [ "es2022" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.Get",
+	"_ESAbstract.ToIntegerOrInfinity",
+	"_ESAbstract.ToString",
+	"ArrayBuffer",
+]
+spec = "https://tc39.es/ecma262/#sec-%typedarray%.prototype.at"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/at"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<92"
+edge = "*"
+edge_mob = "*"
+firefox = "<90"
+firefox_mob = "<90"
+ie = "*"
+ie_mob = "*"
+opera = "<78"
+op_mob = "<65"
+op_mini = "*"
+safari = "<15.4"
+ios_saf = "<15.4"
+samsung_mob = "<16.0"

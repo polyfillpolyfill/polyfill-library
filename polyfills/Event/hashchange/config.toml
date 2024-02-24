@@ -1,0 +1,22 @@
+aliases = [
+	"caniuse:hashchange",
+	"modernizr:hashchange",
+	"default-3.3",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default"
+]
+dependencies = [ "Event" ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/Events/hashchange"
+
+[browsers]
+chrome = "<55"
+firefox = "<51"
+firefox_mob = "<51"
+ie = "6 - 7"
+opera = "<42"
+op_mob = "<42"
+safari = "<5.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

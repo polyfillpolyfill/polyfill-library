@@ -1,0 +1,32 @@
+#### Aliases
+aliases = []
+
+#### Dependencies
+dependencies = []
+
+#### Specification Link
+spec = "https://dom.spec.whatwg.org/#dom-element-getattributenames"
+
+#### Documentation Link
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNames"
+
+#### License
+license = "MIT"
+
+#### Browser compatibility
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<61"
+edge = "<18"
+edge_mob = "<18"
+firefox = "<45"
+firefox_mob = "<45"
+ie = "*"
+ie_mob = "*"
+opera = "<48"
+op_mob = "<45"
+op_mini = "<45"
+safari = "<10.1"
+ios_saf = "<10.3"
+samsung_mob = "<8.0"

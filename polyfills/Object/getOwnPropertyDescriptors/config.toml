@@ -1,0 +1,23 @@
+aliases = [
+	"es2017"
+]
+dependencies = [
+	"Object.getOwnPropertyDescriptor",
+	"Reflect.ownKeys",
+	"_ESAbstract.ToObject",
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.CreateDataProperty",
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptors"
+
+[browsers]
+chrome = "<54"
+edge = "<15"
+firefox = "<50"
+firefox_mob = "<50"
+ie = ">=9"
+opera = "<41"
+op_mob = "<41"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<6.0"

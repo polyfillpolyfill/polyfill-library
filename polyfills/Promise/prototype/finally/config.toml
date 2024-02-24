@@ -1,0 +1,25 @@
+aliases = [ "es2018" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IsCallable",
+	"_ESAbstract.SpeciesConstructor",
+	"Promise",
+]
+notes = [
+	"The Promise polyfill includes `Promise.prototype.finally`, to avoid needlessly serving this polyfill to those browsers, we have configured the browser targets for this polyfill to not include those configured in the Promise polyfill."
+]
+license = "MIT"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally"
+
+[browsers]
+bb = ">10"
+chrome = "32 - 63"
+edge = "13 - 17"
+edge_mob = "13 - 17"
+firefox = "29 - 57"
+firefox_mob = "29 - 57"
+opera = "19 - 50"
+op_mob = "19 - 46"
+safari = "8.0 - 11.1"
+ios_saf = "8.0 - 11.3"
+samsung_mob = "3.0 - 7.4"

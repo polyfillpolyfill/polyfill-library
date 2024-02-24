@@ -1,0 +1,28 @@
+#### Dependencies
+dependencies = [
+   "DOMRect"
+]
+
+#### Specification Link
+spec = "https://drafts.fxtf.org/geometry/#dom-domrect-fromrect"
+
+#### Documentation Link
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/DOMRect"
+
+#### License
+license = "MIT"
+
+#### Browser compatibility
+[browsers]
+android = "*"
+chrome = "<61"
+edge = "*"
+firefox = "<69"
+firefox_mob = "<79"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<48"
+op_mob = "<45"
+safari = "<10.1"
+ios_saf = "<10.3"
+samsung_mob = "<8.0"

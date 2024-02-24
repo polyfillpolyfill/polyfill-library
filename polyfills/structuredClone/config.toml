@@ -1,0 +1,31 @@
+dependencies = [
+	"Map",
+	"Set",
+	"Object.keys",
+	"String.prototype.includes",
+	"RegExp.prototype.flags"
+]
+spec = "https://html.spec.whatwg.org/multipage/structured-data.html#dom-structuredclone"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/structuredClone"
+license = "MIT"
+repo = "https://github.com/ungap/structured-clone/"
+notes = [
+	"This polyfill currently does not support cloning: Blob, File, FileList, ImageBitmap, ImageData, and ArrayBuffer. TypedArrays are supported without major issues, but int and uint 8/16/32 are the only safely supported TypedArrays."
+]
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<98"
+edge = "*"
+edge_mob = "*"
+firefox = "<94"
+firefox_mob = "<94"
+ie = "*"
+ie_mob = "*"
+opera = "<84"
+op_mob = "<68"
+op_mini = "*"
+safari = "<15.4"
+ios_saf = "<15.4"
+samsung_mob = "<18.0"

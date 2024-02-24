@@ -1,0 +1,1 @@
+'requestIdleCallback' in self

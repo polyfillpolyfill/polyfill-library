@@ -1,0 +1,34 @@
+aliases = [
+	"modernizr:urlparser",
+	"blissfuljs",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default",
+	"URLSearchParams"
+]
+dependencies = [
+	"Array.from",
+	"Symbol.iterator"
+]
+notes = [ ]
+license = "CC0-1.0"
+repo = "https://github.com/inexorabletash/polyfill"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/URL"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<61"
+edge = "<18.17134"
+edge_mob = "<17"
+firefox = "<54"
+firefox_mob = "<54"
+ie = ">=9"
+ie_mob = "*"
+opera = "<48"
+op_mob = "<45"
+op_mini = "*"
+safari = "<12.0"
+ios_saf = "<12.0"
+samsung_mob = "<5.0"

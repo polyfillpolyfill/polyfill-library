@@ -1,0 +1,17 @@
+Index: polyfill.js
+--- polyfill.js
++++ polyfill.js
+@@ -419,7 +419,6 @@ 
+    */
+     unorm.shimApplied = false;
+ 
+-   if (!String.prototype.normalize) {
+       Object.defineProperty(String.prototype, "normalize", {
+          enumerable: false,
+          configurable: true,
+@@ -448,5 +447,4 @@
+       });
+ 
+       unorm.shimApplied = true;
+-   }
+ }(this));

@@ -1,0 +1,1 @@
+'remove' in CharacterData.prototype

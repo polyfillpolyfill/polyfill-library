@@ -1,0 +1,17 @@
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate"
+repo = "https://github.com/YuzuJS/setImmediate"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "<10"
+ie_mob = "<10"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "*"

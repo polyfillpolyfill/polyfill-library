@@ -1,0 +1,14 @@
+===================================================================
+--- a/polyfills/smoothscroll/polyfill-original.js
++++ b/polyfills/smoothscroll/polyfill-original.js
+@@ -1,7 +1,7 @@
+ (function (global, factory) {
+-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+-    typeof define === 'function' && define.amd ? define(['exports'], factory) :
+-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.seamless = {}));
++    var exports = {};
++    factory(exports);
++    exports.polyfill();
+ }(this, (function (exports) { 'use strict';
+ 
+     var ease = function (k) {

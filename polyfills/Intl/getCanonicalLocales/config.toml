@@ -1,0 +1,33 @@
+aliases = ["Intl"]
+dependencies = [
+	"Array.prototype.sort",
+	"Object.assign",
+	"Object.keys"
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales"
+license = "MIT"
+repo = "https://github.com/formatjs/formatjs/tree/master/packages/intl-getcanonicallocales/"
+spec = "https://tc39.es/ecma402/#sec-intl.getcanonicallocales"
+
+[browsers]
+android = "*"
+chrome = "<54"
+edge = "<16"
+edge_mob = "<16"
+firefox = "<48"
+firefox_mob = "<56"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<41"
+op_mob = "<41"
+safari = "<11.0"
+ios_saf = "<11.0"
+samsung_mob = "<6.0"
+
+[install]
+module = "@formatjs/intl-getcanonicallocales"
+paths = ["polyfill.iife.js"]
+clean = [
+	"~locale",
+	"polyfill.js",
+]

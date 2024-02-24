@@ -1,0 +1,24 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IsInteger",
+	"_ESAbstract.ToNumber",
+	"_ESAbstract.UTF16EncodeCodePoint",
+]
+license = "MIT"
+spec = "https://tc39.github.io/ecma262/#sec-string.fromcodepoint"
+repo = "https://github.com/mathiasbynens/String.fromCodePoint"
+notes = [ ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint"
+
+[browsers]
+chrome = "<47"
+firefox = "<38"
+firefox_mob = "<38"
+ie = "*"
+ie_mob = "*"
+opera = "<34"
+op_mob = "<34"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<5.0"

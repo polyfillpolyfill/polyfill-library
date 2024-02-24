@@ -1,0 +1,33 @@
+aliases = [ "es2020" ]
+dependencies = [
+	"_ESAbstract.Construct",
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.CreateRegExpStringIterator",
+	"_ESAbstract.Get",
+	"_ESAbstract.SpeciesConstructor",
+	"_ESAbstract.ToLength",
+	"_ESAbstract.ToString",
+	"_ESAbstract.Type",
+	"RegExp.prototype.flags",
+	"Symbol.matchAll",
+]
+license = "MIT"
+spec = "https://tc39.es/ecma262/#sec-regexp-prototype-matchall"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@matchAll"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<73"
+edge = "*"
+edge_mob = "*"
+firefox = "<67"
+firefox_mob = "<67"
+ie = "*"
+ie_mob = "*"
+opera = "<60"
+op_mob = "<52"
+op_mini = "*"
+safari = "<13.0"
+ios_saf = "<13.0"
+samsung_mob = "<11.0"

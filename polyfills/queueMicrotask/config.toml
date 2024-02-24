@@ -1,0 +1,17 @@
+dependencies = [
+	"Promise",
+	"Event"
+]
+
+[browsers]
+android = "*"
+chrome = "<71"
+edge = "*"
+firefox = "<69"
+firefox_mob = "<79"
+ie = "*"
+opera = "<58"
+op_mob = "<50"
+safari = "<12.1"
+ios_saf = "<12.2"
+samsung_mob = "<10.0"

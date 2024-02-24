@@ -1,0 +1,36 @@
+aliases = [
+	"scroll",
+	"scrollBy",
+	"scrollIntoView",
+	"Element.prototype.scroll",
+	"Element.prototype.scrollBy",
+	"Element.prototype.scrollIntoView",
+	"window.scroll",
+	"window.scrollBy"
+]
+dependencies = [
+	"requestAnimationFrame",
+]
+license = "MIT"
+spec = "https://drafts.csswg.org/cssom-view/#smooth-scrolling"
+repo = "https://github.com/magic-akari/seamless-scroll-polyfill"
+docs = "https://developer.mozilla.org/en/docs/Web/CSS/scroll-behavior"
+
+[browsers]
+android = "*"
+chrome = "<61"
+edge = "*"
+edge_mob = "*"
+firefox = "4 - 36"
+firefox_mob = "<37"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<48"
+op_mob = "<45"
+safari = "<15.4"
+ios_saf = "<15.4"
+samsung_mob = "<8.0"
+
+[install]
+module = "seamless-scroll-polyfill"
+postinstall = "update.task.js"

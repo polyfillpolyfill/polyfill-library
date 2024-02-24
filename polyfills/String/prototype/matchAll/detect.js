@@ -1,0 +1,1 @@
+'matchAll' in String.prototype

@@ -1,0 +1,16 @@
+aliases = [ "es6", "es2015", "Number.EPSILON" ]
+dependencies = [ ]
+license = "MIT"
+spec = "https://tc39.github.io/ecma262/#sec-number.epsilon"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON"
+
+[browsers]
+chrome = "<34"
+firefox = "<25"
+firefox_mob = "<25"
+ie = "*"
+opera = "<21"
+op_mob = "<21"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<2.0"

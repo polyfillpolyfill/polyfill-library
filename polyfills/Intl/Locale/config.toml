@@ -1,0 +1,33 @@
+aliases = ["Intl"]
+dependencies = [
+	"Array.prototype.sort",
+	"Intl.getCanonicalLocales",
+	"Object.assign",
+	"Object.keys",
+	"Set",
+	"WeakMap"
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale"
+license = "MIT"
+repo = "https://github.com/formatjs/formatjs/tree/master/packages/intl-locale/"
+spec = "https://tc39.es/ecma402/#sec-intl.locale"
+
+[browsers]
+android = "*"
+chrome = "<74"
+edge = "*"
+edge_mob = "*"
+firefox = "<75"
+firefox_mob = "<79"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<62"
+op_mob = "<53"
+safari = "<14.0"
+ios_saf = "<14.0"
+samsung_mob = "<11.0"
+
+[install]
+module = "@formatjs/intl-locale"
+paths = ["polyfill.iife.js"]
+clean = [ "polyfill.js" ]

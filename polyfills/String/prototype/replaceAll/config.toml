@@ -1,0 +1,83 @@
+#### Aliases
+# An alias is another name for the polyfill that can be used when requesting a bundle.
+# For example, the alias `es5` is used to replicate an ECMAScript 5 environment.
+aliases = ['es2021']
+
+#### Dependencies
+# List any web platform features that you use in your polyfill.
+# For example:
+# dependencies = [
+#    "Object.defineProperty"
+# ]
+dependencies = [
+	"_ESAbstract.Call",
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.Get",
+	"_ESAbstract.GetMethod",
+	"_ESAbstract.GetSubstitution",
+	"_ESAbstract.IsCallable",
+	"_ESAbstract.IsRegExp",
+	"_ESAbstract.RequireObjectCoercible",
+	"_ESAbstract.StringIndexOf",
+	"_ESAbstract.ToString",
+	"RegExp.prototype.flags",
+	"Symbol.replace"
+]
+
+#### Specification Link
+# The url which is where the specification for the feature exists.
+# For example the specification for String.prototype.replaceAll is https://tc39.es/ecma262/#sec-string.prototype.replaceall
+spec = "https://tc39.es/ecma262/#sec-string.prototype.replaceall"
+
+#### Documentation Link
+# The url which is where the documentation for the feature exists, this is usually a link to MDN.
+# For example the documentation for String.prototype.replaceAll is https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll"
+
+#### License
+# The license this code has been given. All code authored within the polyfill-library itself is MIT.
+# Third-party code can use any license which is listed on https://opensource.org/licenses
+license = "MIT"
+
+notes = [
+	"Polyfill for RegExp.prototype[@@replace] is missing. This polyfill won't work fully as expected untill that polyfill has been implemented."
+]
+
+#### Browser compatibility
+# List what browsers require the polyfill.
+# You can check the related Mozilla Developer Network (MDN) page for the compatibility, they also have their browser compatibility data on GitHub.
+# For example: [MDN nextElementSibling browser support](https://github.com/mdn/browser-compat-data/blob/master/api/NonDocumentTypeChildNode.json#L99-L149)
+# Browsers that can be listed:
+# - android
+# - bb
+# - chrome
+# - edge
+# - edge_mob
+# - firefox
+# - ios_saf
+# - ie
+# - ie_mob
+# - opera
+# - op_mini
+# - safari
+# - firefox_mob
+# - samsung_mob
+# The browser list uses a form of semantic versioning to indicate which browser requires polyfilling.
+# If all versions of a browser require the polyfill you can use the wildcard asterisk (*):
+# For specific versions you can specify a number, for example if a polyfill is required in Internet Explorer 10 and below you can use "<11"
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<85"
+edge = "*"
+edge_mob = "*"
+firefox = "<77"
+firefox_mob = "<79"
+ie = "*"
+ie_mob = "*"
+opera = "<71"
+op_mob = "<60"
+op_mini = "*"
+safari = "<13.1"
+ios_saf = "<13.4"
+samsung_mob = "<14.0"

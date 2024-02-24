@@ -1,0 +1,20 @@
+dependencies = [ "Element.prototype.classList" ]
+license = "MIT"
+spec = "https://dom.spec.whatwg.org/#domtokenlist"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<67"
+edge = "<18"
+edge_mob = "<18"
+firefox = "<61"
+firefox_mob = "<61"
+ie = "*"
+ie_mob = "*"
+opera = "<54"
+op_mob = "<48"
+op_mini = "*"
+safari = "<12.0"
+ios_saf = "<12.0"
+samsung_mob = "<9.0"

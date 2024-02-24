@@ -1,0 +1,22 @@
+aliases = [ ]
+dependencies = [ ]
+spec = "https://tc39.es/ecma262/#sec-globalthis"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis"
+license = "MIT"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<71"
+edge = "*"
+edge_mob = "*"
+firefox = "<65"
+firefox_mob = "<65"
+ie = "*"
+ie_mob = "*"
+opera = "<58"
+op_mob = "<50"
+op_mini = "*"
+safari = "<12.1"
+ios_saf = "<12.2"
+samsung_mob = "<10.0"

@@ -1,0 +1,26 @@
+aliases = [ "es2020" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IterableToList",
+	"_ESAbstract.Type",
+	"Promise",
+]
+license = "MIT"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<76"
+edge = "*"
+edge_mob = "*"
+firefox = "<71"
+firefox_mob = "<79"
+ie = "*"
+ie_mob = "*"
+opera = "<63"
+op_mob = "<54"
+op_mini = "*"
+safari = "<13.0"
+ios_saf = "<13.0"
+samsung_mob = "<12.0"

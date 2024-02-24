@@ -1,0 +1,20 @@
+dependencies = [ ]
+notes = [ ]
+spec = "http://www.w3.org/TR/screen-orientation/"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Screen/orientation"
+
+[browsers]
+android = "<5"
+bb = "*"
+chrome = "<49"
+edge = "*"
+edge_mob = "*"
+firefox = "<30"
+firefox_mob = "<30"
+ie = ">=9"
+ie_mob = "*"
+opera = "<25"
+op_mob = "<36"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "<5.0"

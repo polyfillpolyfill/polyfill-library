@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mocha test suite for polyfill-library</title>
+
+	<link rel="stylesheet" type="text/css" href="/mocha.css">
+	<meta id="test-iframe-src" name="test-iframe-src" content="/iframe.html?includePolyfills={{{includePolyfills}}}&always={{{always}}}&polyfillCombinations={{{polyfillCombinations}}}&feature={{features}}">
+	<script src="/polyfill.js?includePolyfills={{{includePolyfills}}}&always={{{always}}}&polyfillCombinations={{{polyfillCombinations}}}{{#unless requestedPolyfillCombinations}}&feature={{features}}{{/unless}}"></script>
+	<script src="/mocha.js"></script>
+	<script src="/proclaim.js"></script>
+	<script>mocha.setup('bdd');</script>
+	<script src="/tests.js{{#requestedFeature}}?feature={{features}}{{/requestedFeature}}"></script>
+</head>
+<body>
+
+	<div id="mocha"></div>
+
+	<script>
+	{{{afterTestSuite}}}
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [
+	"_ESAbstract.Type",
+	"ArrayBuffer",
+	"Symbol.toStringTag",
+]
+spec = "https://tc39.es/ecma262/#sec-get-%typedarray%.prototype-@@tostringtag"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag"
+
+[browsers]
+android = "*"
+bb = "10 - *"
+chrome = "<49"
+edge = "<15"
+edge_mob = "<15"
+firefox = "<51"
+firefox_mob = "<51"
+ie = "*"
+ie_mob = "*"
+opera = "<36"
+op_mob = "<36"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

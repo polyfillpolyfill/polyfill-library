@@ -1,0 +1,16 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [ "_ESAbstract.CreateMethodProperty", "_ESAbstract.Type" ]
+license = "MIT"
+spec = "http://www.ecma-international.org/ecma-262/6.0/#sec-isfinite-number"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite"
+
+[browsers]
+chrome = "<19"
+firefox = "<16"
+firefox_mob = "<16"
+ie = "*"
+opera = "<15"
+op_mob = "<14"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<1.5"

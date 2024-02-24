@@ -1,0 +1,1 @@
+'HTMLTemplateElement' in self

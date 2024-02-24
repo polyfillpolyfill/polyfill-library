@@ -1,0 +1,1 @@
+"setPrototypeOf" in Object

@@ -1,0 +1,22 @@
+aliases = [ "es6", "es2015", "modernizr:es6array" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IsCallable",
+]
+license = "MIT"
+spec = "http://www.ecma-international.org/ecma-262/6.0/#sec-array.prototype.sort"
+docs = "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+
+[browsers]
+android = "*"
+chrome = "<70"
+edge = "*"
+edge_mob = "*"
+firefox = "<3"
+ie = "*"
+ie_mob = "*"
+opera = "<57"
+op_mob = "<49"
+safari = "<10.1"
+ios_saf = "<10.3"
+samsung_mob = "<10.0"

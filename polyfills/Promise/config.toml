@@ -1,0 +1,35 @@
+aliases = [
+	"modernizr:promises",
+	"caniuse:promises",
+	"blissfuljs",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default",
+	"es6",
+	"es2015"
+]
+dependencies = [
+	"Symbol.toStringTag",
+]
+notes = [ ]
+license = "MIT"
+docs = "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+repo = "https://github.com/ysmood/yaku"
+
+[browsers]
+android = "*"
+bb = "* - 10"
+chrome = "<32"
+edge = "<13"
+edge_mob = "<13"
+firefox = "6 - 28"
+firefox_mob = "6 - 28"
+ie = "*"
+ie_mob = "*"
+opera = "<20"
+op_mob = "<19"
+op_mini = "*"
+safari = "<8.0"
+ios_saf = "<8.0"
+samsung_mob = "<2.0"

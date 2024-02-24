@@ -1,0 +1,132 @@
+{
+  "name": "polyfill-library",
+  "version": "4.8.0",
+  "description": "A polyfill combinator",
+  "main": "lib/index.js",
+  "contributors": [
+    {
+      "name": "Jonathan Neal",
+      "email": "jonathantneal+github@gmail.com",
+      "url": "http://jonathantneal.com/"
+    },
+    {
+      "name": "FT Origami",
+      "email": "origami.support@ft.com",
+      "url": "https://origami.ft.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/financial-times/polyfill-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/financial-times/polyfill-library/issues"
+  },
+  "scripts": {
+    "lint": "eslint polyfills lib tasks test",
+    "lint-config": "node tasks/lint-config/index.js",
+    "clean": "rimraf ./polyfills/__dist && node tasks/clean",
+    "build": "npm run clean && node tasks/updatesources && node tasks/buildsources/buildsources",
+    "watch": "npm run clean && node tasks/updatesources && node tasks/buildsources/watchsource",
+    "fmt": "eslint . --fix",
+    "test-library": "npm run build && npm run test-node && npm run test-node-unit && npm run test-end-to-end",
+    "test-polyfills": "karma start",
+    "test-all-polyfills": "node ./test/polyfills/test-all-features.js",
+    "test-end-to-end": "mocha test/end-to-end/**/*.test.js",
+    "test-node": "nyc mocha test/node/**/*.js",
+    "test-node-unit": "mocha test/unit --recursive",
+    "test": "npm run build && npm run test-node && npm run test-node-unit && npm run test-polyfills",
+    "prepublishOnly": "npm run build && mv polyfills/__dist __dist && rimraf polyfills && mkdir polyfills && mv __dist polyfills/__dist",
+    "create-new-polyfill": "node ./tasks/create-new-polyfill.js",
+    "update-browserstack-list": "node ./tasks/updatebrowserstacklist.js",
+    "version": "auto-changelog -p"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "/CHANGELOG.md",
+    "/LICENSE.md",
+    "/README.md",
+    "/SECURITY.md",
+    "/lib",
+    "/origami.json",
+    "/polyfills/__dist"
+  ],
+  "dependencies": {
+    "@financial-times/polyfill-useragent-normaliser": "^2.0.1",
+    "from2-string": "^1.1.0",
+    "graceful-fs": "^4.2.10",
+    "merge2": "^1.0.3",
+    "mnemonist": "^0.39.2",
+    "stream-from-promise": "^1.0.0",
+    "stream-to-string": "^1.1.0",
+    "toposort": "^2.0.2"
+  },
+  "devDependencies": {
+    "@formatjs/intl-datetimeformat": "4.1.0",
+    "@formatjs/intl-displaynames": "5.1.0",
+    "@formatjs/intl-getcanonicallocales": "1.6.0",
+    "@formatjs/intl-listformat": "6.1.0",
+    "@formatjs/intl-locale": "2.4.26",
+    "@formatjs/intl-localematcher": "^0.2.21",
+    "@formatjs/intl-numberformat": "7.1.0",
+    "@formatjs/intl-pluralrules": "4.0.20",
+    "@formatjs/intl-relativetimeformat": "9.1.0",
+    "@iarna/toml": "^2.2.3",
+    "@juggle/resize-observer": "^3.3.1",
+    "@webcomponents/template": "^1.5.0",
+    "abort-controller": "^3.0.0",
+    "apicache": "^1.6.3",
+    "array.prototype.flatmap": "^1.2.1",
+    "audio-context-polyfill": "^1.0.0",
+    "auto-changelog": "^2.2.1",
+    "Base64": "^1.0.0",
+    "bluebird": "^3.7.2",
+    "browserstack": "1.6.1",
+    "browserstack-local": "^1.5.2",
+    "chai": "^4.3.4",
+    "cli-color": "^2.0.0",
+    "compression": "^1.7.4",
+    "diff": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-uncalled-iife": "^1.0.2",
+    "eslint-plugin-unicorn": "^27.0.0",
+    "execa": "^5.0.0",
+    "express": "^4.17.3",
+    "glob": "^7.1.1",
+    "globby": "^11.0.0",
+    "handlebars": "^4.7.2",
+    "hard-rejection": "^2.1.0",
+    "html5shiv": "^3.7.3",
+    "js-polyfills": "^0.1.40",
+    "karma": "^6.0.0",
+    "karma-browserstack-launcher": "^1.6.0",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-mocha": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "lodash": "^4.17.14",
+    "mocha": "^3.5.3",
+    "mockery": "^2.1.0",
+    "mutationobserver-shim": "^0.3.2",
+    "nyc": "^15.0.0",
+    "picturefill": "^3.0.1",
+    "proclaim": "^3.6.0",
+    "rimraf": "^3.0.0",
+    "seamless-scroll-polyfill": "1.2.4",
+    "semver": "^7.3.7",
+    "sinon": "^15.0.0",
+    "spdx-licenses": "^1.0.0",
+    "uglify-js": "^3.17.4",
+    "unorm": "^1.6.0",
+    "usertiming": "^0.1.8",
+    "web-animations-js": "^2.2.5",
+    "webdriverio": "^8.0.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "volta": {
+    "node": "16.20.0"
+  }
+}

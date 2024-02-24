@@ -1,0 +1,34 @@
+aliases = [
+	"es6",
+	"es2015",
+	"Object.getOwnPropertySymbols",
+	"Symbol.for",
+	"Symbol.keyFor"
+]
+dependencies = [
+	"Object.getOwnPropertyNames",
+	"Object.getOwnPropertyDescriptor",
+	"Object.freeze",
+	"Object.keys",
+	"_ESAbstract.Type"
+]
+license = "MIT"
+spec = "http://www.ecma-international.org/ecma-262/6.0/index.html#sec-symbol-objects"
+docs = "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Symbol"
+
+[browsers]
+android = "<5.1"
+bb = "10 - *"
+chrome = "<49"
+edge = "<13"
+edge_mob = "<13"
+firefox = "<36"
+firefox_mob = "<36"
+ie = "*"
+ie_mob = "*"
+opera = "<37"
+op_mob = "<37"
+op_mini = "*"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<5.0"

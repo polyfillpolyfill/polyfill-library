@@ -1,0 +1,1 @@
+'replaceWith' in CharacterData.prototype

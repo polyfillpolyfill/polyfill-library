@@ -1,0 +1,21 @@
+aliases = [ "default-3.4", "default-3.5", "default-3.6", "default" ]
+dependencies = [ "DocumentFragment.prototype.append" ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment/replaceChildren"
+spec = "http://dom.spec.whatwg.org/#dom-parentnode-replacechildren"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<86"
+edge = "*"
+edge_mob = "*"
+firefox = "<78"
+firefox_mob = "<79"
+ie = "*"
+ie_mob = "*"
+opera = "<72"
+op_mob = "<61"
+op_mini = "*"
+safari = "<14.0"
+ios_saf = "<14.0"
+samsung_mob = "<14.0"

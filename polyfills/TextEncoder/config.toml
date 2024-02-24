@@ -1,0 +1,29 @@
+aliases = [
+	"TextDecoder"
+]
+
+dependencies = ["ArrayBuffer"]
+
+license = "CC0-1.0"
+spec = "https://encoding.spec.whatwg.org/#interface-textencoder"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder"
+repo = "https://github.com/anonyco/FastestSmallestTextEncoderDecoder"
+
+[browsers]
+android = "*"
+chrome = "<38"
+edge = "*"
+edge_mob = "*"
+firefox = "<19"
+firefox_mob = "<19"
+ie = "*"
+ie_mob = "*"
+opera = "<25"
+op_mob = "<25"
+safari = "<10.1"
+ios_saf = "<10.3"
+samsung_mob = "<3.0"
+
+# [install]
+# module = "fastestsmallesttextencoderdecoder"
+# paths = [ "EncoderDecoderTogether.min.js"]

@@ -1,0 +1,21 @@
+spec = "http://www.w3.org/TR/user-timing/"
+license = "MIT"
+repo = "https://github.com/nicjansma/usertiming.js"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/User_Timing_API"
+
+[browsers]
+android = "*"
+chrome = "<25"
+edge = "<18.17134"
+firefox = "<38"
+firefox_mob = "<38"
+ie = "<10"
+ie_mob = "<10"
+opera = "<15"
+op_mob = "*"
+safari = "<14.1"
+ios_saf = "<14.0"
+samsung_mob = "<1.5"
+
+[install]
+module = "usertiming"

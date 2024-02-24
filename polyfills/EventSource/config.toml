@@ -1,0 +1,26 @@
+aliases = [ ]
+dependencies = [ ]
+spec = "https://html.spec.whatwg.org/multipage/comms.html#the-eventsource-interface"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/EventSource"
+license = "MIT"
+
+# !Important note:
+# see : https://github.com/Yaffle/EventSource/commit/de137927e13d8afac153d2485152ccec48948a7a
+# This dependency is now protestware and no longer safe to use via npm.
+# The code from event-source-polyfill v1.0.25 has been commited and the update step has been removed.
+repo = "https://github.com/Yaffle/EventSource"
+
+[browsers]
+android = "<4.4"
+chrome = "<26"
+edge = "*"
+edge_mob = "*"
+firefox = "<36"
+firefox_mob = "<36"
+ie = "*"
+ie_mob = "*"
+opera = "<12"
+op_mob = "<12"
+safari = "<7.0"
+ios_saf = "<7.0"
+samsung_mob = "<2.0"

@@ -1,0 +1,19 @@
+dependencies = [ "_ArrayIterator", "Symbol.iterator" ]
+license = "MIT"
+spec = "https://dom.spec.whatwg.org/#nodelist"
+
+[browsers]
+android = "*"
+bb = "10 - *"
+chrome = "<51"
+edge = "<16"
+edge_mob = "<16"
+firefox = "<50"
+firefox_mob = "<50"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<38"
+op_mob = "<41"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

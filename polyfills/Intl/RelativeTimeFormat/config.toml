@@ -1,0 +1,41 @@
+dependencies = [
+	"Intl.getCanonicalLocales",
+	"Intl.Locale",
+	"Intl.NumberFormat",
+	"Intl.PluralRules",
+	"Object.assign",
+	"Object.keys",
+	"Object.setPrototypeOf",
+	"WeakMap",
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RelativeTimeFormat"
+license = "MIT"
+notes = [
+	"Locales must be specified separately by prefixing the locale name with `Intl.RelativeTimeFormat.~locale`, eg `Intl.RelativeTimeFormat.~locale.en-GB`.",
+]
+repo = "https://github.com/formatjs/formatjs/tree/master/packages/intl-relativetimeformat/polyfill.js"
+spec = "https://tc39.es/proposal-intl-relative-time/#sec-intl-relativetimeformat-constructor"
+
+[browsers]
+android = "*"
+chrome = "<71"
+edge = "*"
+edge_mob = "*"
+firefox = "<65"
+firefox_mob = "<65"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<58"
+op_mob = "<50"
+safari = "<14.0"
+ios_saf = "<14.0"
+samsung_mob = "<10.0"
+
+[install]
+module = "@formatjs/intl-relativetimeformat"
+paths = ["polyfill.iife.js"]
+postinstall = "update.task.js"
+clean = [
+	"~locale",
+	"polyfill.js",
+]

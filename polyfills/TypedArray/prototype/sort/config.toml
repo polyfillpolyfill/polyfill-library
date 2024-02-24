@@ -1,0 +1,25 @@
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IsCallable",
+	"ArrayBuffer",
+]
+license = "MIT"
+spec = "https://tc39.es/ecma262/#sec-%typedarray%.prototype.sort"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/sort"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<45"
+edge = "<12"
+edge_mob = "<12"
+firefox = "<46"
+firefox_mob = "<46"
+ie = "*"
+ie_mob = "*"
+opera = "<32"
+op_mob = "<32"
+op_mini = "*"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

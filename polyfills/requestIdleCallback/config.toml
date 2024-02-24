@@ -1,0 +1,26 @@
+aliases = [ ]
+dependencies = [
+	"Array.prototype.includes",
+	"requestAnimationFrame",
+	"performance.now",
+	"Event"
+]
+license = "MIT"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<47"
+edge = "*"
+edge_mob = "*"
+firefox = "<55"
+firefox_mob = "<55"
+ie = "*"
+ie_mob = "*"
+opera = "<34"
+op_mob = "<34"
+op_mini = "*"
+safari = ">=9.0"
+ios_saf = ">=9.0"
+samsung_mob = "<5.0"

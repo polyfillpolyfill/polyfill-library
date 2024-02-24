@@ -1,0 +1,1 @@
+'hasOwn' in Object

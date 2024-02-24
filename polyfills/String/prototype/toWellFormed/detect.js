@@ -1,0 +1,1 @@
+"toWellFormed" in String.prototype;

@@ -1,0 +1,30 @@
+dependencies = [
+	"_ESAbstract.AddValueToKeyedGroup",
+	"_ESAbstract.Call",
+	"_ESAbstract.GetIterator",
+	"_ESAbstract.IsCallable",
+	"_ESAbstract.IteratorClose",
+	"_ESAbstract.IteratorStep",
+	"_ESAbstract.IteratorValue",
+	"_ESAbstract.RequireObjectCoercible",
+	"_ESAbstract.ToPropertyKey",
+	"Number.MAX_SAFE_INTEGER",
+]
+spec = "https://tc39.es/ecma262/#sec-groupby"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "*"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "*"

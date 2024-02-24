@@ -1,0 +1,21 @@
+repo = "https://github.com/megawac/MutationObserver.js"
+docs = "https://developer.mozilla.org/en/docs/Web/API/MutationObserver"
+spec = "https://dom.spec.whatwg.org/#mutationobserver"
+license = "WTFPL"
+
+[browsers]
+android = "<4.4"
+chrome = "<26"
+firefox = "<14"
+firefox_mob = "<14"
+ie = "<11"
+ie_mob = "<11"
+opera = "<15"
+op_mob = "<15"
+safari = "<6.0"
+ios_saf = "<7.0"
+samsung_mob = "<1.5"
+
+[install]
+module = "mutationobserver-shim"
+paths = [ "MutationObserver.js" ]

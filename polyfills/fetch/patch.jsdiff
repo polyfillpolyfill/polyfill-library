@@ -1,0 +1,21 @@
+diff --git a/polyfills/fetch/polyfill.js b/polyfills/fetch/polyfill.js
+index 8c3269e3..5c302559 100644
+--- a/polyfills/fetch/polyfill.js
++++ b/polyfills/fetch/polyfill.js
+@@ -603,12 +603,10 @@
+
+   fetch.polyfill = true;
+
+-  if (!global.fetch) {
+-    global.fetch = fetch;
+-    global.Headers = Headers;
+-    global.Request = Request;
+-    global.Response = Response;
+-  }
++  global.fetch = fetch;
++  global.Headers = Headers;
++  global.Request = Request;
++  global.Response = Response;
+
+   exports.Headers = Headers;
+   exports.Request = Request;

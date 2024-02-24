@@ -1,0 +1,24 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [
+	"_ArrayIterator",
+	"_ESAbstract.CreateMethodProperty",
+	"ArrayBuffer",
+]
+license = "MIT"
+spec = "https://tc39.es/ecma262/#sec-%typedarray%.prototype.entries"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/entries"
+
+[browsers]
+android = "*"
+chrome = "<45"
+edge = "<14"
+edge_mob = "<14"
+firefox = "<37"
+firefox_mob = "<37"
+ie = "*"
+ie_mob = "*"
+opera = "<36"
+op_mob = "<36"
+safari = "<9.1"
+ios_saf = "<9.3"
+samsung_mob = "<5.0"

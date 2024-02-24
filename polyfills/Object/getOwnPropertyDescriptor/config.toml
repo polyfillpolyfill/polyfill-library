@@ -1,0 +1,28 @@
+aliases = [
+	"es5",
+	"modernizr:es5object",
+	"default-3.5",
+	"default-3.6",
+	"default",
+	"blissfuljs"
+]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.ToObject",
+	"_ESAbstract.ToPropertyKey",
+	"_ESAbstract.Type",
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor"
+
+[browsers]
+android = "*"
+chrome = "<45"
+edge = "<14"
+firefox = "<36"
+firefox_mob = "<36"
+ie = "*"
+opera = "<32"
+op_mob = "<32"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

@@ -1,0 +1,21 @@
+aliases = [ "es2018" ]
+dependencies = [ "Symbol" ]
+license = "MIT"
+spec = "http://www.ecma-international.org/ecma-262/6.0/index.html#sec-symbol.asyncIterator"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<63"
+edge = "*"
+edge_mob = "*"
+firefox = "<55"
+firefox_mob = "<55"
+ie = "*"
+ie_mob = "*"
+opera = "<50"
+op_mob = "<46"
+safari = "<11.1"
+ios_saf = "<11.3"
+samsung_mob = "<8.0"

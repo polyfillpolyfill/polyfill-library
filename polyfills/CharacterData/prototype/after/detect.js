@@ -1,0 +1,1 @@
+'after' in CharacterData.prototype

@@ -1,0 +1,21 @@
+dependencies = [
+  "_ESAbstract.UTF16SurrogatePairToCodePoint",
+]
+spec = "https://tc39.es/ecma262/#sec-codepointat"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "*"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "*"

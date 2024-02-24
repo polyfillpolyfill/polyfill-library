@@ -1,0 +1,10 @@
+aliases = [ "caniuse:console-basic" ]
+dependencies = [ "console" ]
+spec = "https://console.spec.whatwg.org"
+docs = "https://developer.mozilla.org/en/docs/Web/API/console"
+
+[browsers]
+chrome = "*"
+firefox = "<5"
+ie = "*"
+samsung_mob = "*"

@@ -1,0 +1,17 @@
+dependencies = [ "atob", "URL" ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Blob/Blob"
+license = "MIT"
+repo = "https://github.com/eligrey/Blob.js/blob"
+
+[browsers]
+chrome = "<20"
+edge = "*"
+edge_mob = "*"
+firefox = "<13"
+firefox_mob = "<14"
+ie = "*"
+opera = "<12"
+op_mob = "<12"
+safari = "<6.0"
+ios_saf = "<6.0"
+samsung_mob = "<1.5"

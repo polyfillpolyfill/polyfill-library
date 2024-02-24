@@ -1,0 +1,18 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [ "_ESAbstract.CreateMethodProperty", "_ESAbstract.Type" ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal"
+license = "MIT"
+spec = "https://tc39.github.io/ecma262/#sec-object.seal"
+
+[browsers]
+android = "<4"
+bb = "*"
+chrome = "<6"
+firefox = "<4"
+ie = "<9"
+ie_mob = "<9"
+opera = "<15"
+op_mob = "<12"
+op_mini = "*"
+safari = "<5.1"
+ios_saf = "<6.0"

@@ -1,0 +1,20 @@
+dependencies = [ "_ESAbstract.CreateMethodProperty", "_ESAbstract.Type" ]
+spec = "https://tc39.github.io/ecma262/#sec-object.isesealed"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed"
+
+[browsers]
+android = "<5"
+bb = "*"
+chrome = "<44"
+edge = "<13"
+edge_mob = "<13"
+firefox = "<35"
+firefox_mob = "<35"
+ie = "*"
+ie_mob = "*"
+opera = "<31"
+op_mob = "<32"
+op_mini = "*"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<5.0"

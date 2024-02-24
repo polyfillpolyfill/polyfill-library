@@ -1,0 +1,27 @@
+aliases = [ "es2021" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IterableToList",
+	"_ESAbstract.Type",
+	"AggregateError",
+	"Promise",
+]
+license = "MIT"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<85"
+edge = "*"
+edge_mob = "*"
+firefox = "<79"
+firefox_mob = "<79"
+ie = "*"
+ie_mob = "*"
+opera = "<71"
+op_mob = "<60"
+op_mini = "*"
+safari = "<14.0"
+ios_saf = "<14.0"
+samsung_mob = "<14.0"

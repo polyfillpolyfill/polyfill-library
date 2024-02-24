@@ -1,0 +1,18 @@
+aliases = [
+	"dom4",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default"
+]
+dependencies = [ ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Node/contains"
+
+[browsers]
+edge = "<14"
+edge_mob = "<14"
+firefox = "<9"
+firefox_mob = "<9"
+ie = "*"
+ie_mob = ">=10"
+safari = "<3.0"

@@ -1,0 +1,14 @@
+aliases = [ ]
+dependencies = [ "IntersectionObserver" ]
+docs = "https://github.com/w3c/IntersectionObserver/blob/master/explainer.md"
+spec = "http://rawgit.com/w3c/IntersectionObserver/master/index.html"
+notes = [ ]
+repo = "https://github.com/w3c/IntersectionObserver"
+
+[browsers]
+chrome = "51 - 57"
+edge = "15"
+edge_mob = "15"
+opera = "38 - 44"
+op_mob = "41 - 42"
+samsung_mob = "5.0 - 6.4"

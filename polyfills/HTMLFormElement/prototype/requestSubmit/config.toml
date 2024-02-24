@@ -1,0 +1,23 @@
+aliases = []
+dependencies = [
+	"Node.prototype.isConnected"
+]
+spec = "https://html.spec.whatwg.org/multipage/forms.html#dom-form-requestsubmit-dev"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/requestSubmit"
+license = "MIT"
+
+[browsers]
+android = "*"
+chrome = "<76"
+edge = "*"
+edge_mob = "*"
+firefox = "<75"
+firefox_mob = "<79"
+ie = "*"
+ie_mob = "*"
+opera = "<63"
+op_mob = "<64"
+op_mini = "*"
+safari = "<16.0"
+ios_saf = "<16.0"
+samsung_mob = "<12.0"

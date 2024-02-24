@@ -1,0 +1,67 @@
+#### Aliases
+# An alias is another name for the polyfill that can be used when requesting a bundle.
+# For example, the alias `es5` is used to replicate an ECMAScript 5 environment.
+aliases = []
+
+#### Dependencies
+# List any web platform features that you use in your polyfill.
+# For example:
+# dependencies = [
+#    "Object.defineProperty"
+# ]
+dependencies = []
+
+#### Specification Link
+# The url which is where the specification for the feature exists.
+# For example the specification for String.prototype.replaceAll is https://tc39.es/ecma262/#sec-string.prototype.replaceall
+spec = ""
+
+#### Documentation Link
+# The url which is where the documentation for the feature exists, this is usually a link to MDN.
+# For example the documentation for String.prototype.replaceAll is https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+docs = ""
+
+#### License
+# The license this code has been given. All code authored within the polyfill-library itself is MIT.
+# Third-party code can use any license which is listed on https://opensource.org/licenses
+license = ""
+
+#### Browser compatibility
+# List what browsers require the polyfill.
+# You can check the related Mozilla Developer Network (MDN) page for the compatibility, they also have their browser compatibility data on GitHub.
+# For example: [MDN nextElementSibling browser support](https://github.com/mdn/browser-compat-data/blob/master/api/NonDocumentTypeChildNode.json#L99-L149)
+# Browsers that can be listed:
+# - android
+# - bb
+# - chrome
+# - edge
+# - edge_mob
+# - firefox
+# - ios_saf
+# - ie
+# - ie_mob
+# - opera
+# - op_mob
+# - op_mini
+# - safari
+# - firefox_mob
+# - samsung_mob
+# The browser list uses a form of semantic versioning to indicate which browser requires polyfilling.
+# If all versions of a browser require the polyfill you can use the wildcard asterisk (*):
+# For specific versions you can specify a number, for example if a polyfill is required in Internet Explorer 10 and below you can use "<11"
+[browsers]
+android = "*"
+bb = "*"
+chrome = "*"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "*"

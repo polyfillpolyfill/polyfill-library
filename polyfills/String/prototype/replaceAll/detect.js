@@ -1,0 +1,1 @@
+'replaceAll' in String.prototype

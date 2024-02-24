@@ -1,0 +1,26 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [
+	"_ESAbstract.Get",
+	"_ESAbstract.ToBoolean",
+	"_ESAbstract.Type",
+]
+license = "MIT"
+spec = "https://tc39.github.io/ecma262/#sec-get-regexp.prototype.flags"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags"
+
+[browsers]
+android = "<6"
+bb = "*"
+chrome = "<49"
+edge = "*"
+edge_mob = "*"
+firefox = "<37"
+firefox_mob = "<37"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<39"
+op_mob = "<41"
+op_mini = "*"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<5.0"

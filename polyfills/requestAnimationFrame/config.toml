@@ -1,0 +1,26 @@
+aliases = [
+	"default-3.3",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default",
+	"caniuse:requestanimationframe",
+	"modernizr:requestanimationframe"
+]
+dependencies = [ ]
+license = "MIT"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame"
+
+[browsers]
+android = "*"
+bb = "7"
+chrome = "<46"
+firefox = "3.6 - 22"
+firefox_mob = "<23"
+ie = "6 - 9"
+opera = "<15"
+op_mob = "<14"
+op_mini = "5 - *"
+safari = "3.1 - 6.0"
+ios_saf = "3.2 - 6.0"
+samsung_mob = "<5.0"

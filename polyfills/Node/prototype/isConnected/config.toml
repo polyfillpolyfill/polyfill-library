@@ -1,0 +1,22 @@
+aliases = []
+dependencies = ["Node.prototype.getRootNode"]
+
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Node/isConnected"
+spec = "https://dom.spec.whatwg.org/#dom-node-isconnected"
+
+[browsers]
+android = "<6"
+bb = "*"
+chrome = "<51"
+edge = "*"
+edge_mob = "*"
+firefox = "<49"
+firefox_mob = "<49"
+ie = "*"
+ie_mob = "*"
+opera = "<38"
+op_mob = "<41"
+op_mini = "*"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<6.0"

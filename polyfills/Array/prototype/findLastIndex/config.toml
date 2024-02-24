@@ -1,0 +1,30 @@
+aliases = [ "es2023" ]
+dependencies = [
+	"_ESAbstract.Call",
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.Get",
+	"_ESAbstract.IsCallable",
+	"_ESAbstract.LengthOfArrayLike",
+	"_ESAbstract.ToBoolean",
+	"_ESAbstract.ToObject",
+	"_ESAbstract.ToString",
+]
+spec = "https://tc39.es/ecma262/#sec-array.prototype.findlastindex"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLastIndex"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<97"
+edge = "*"
+edge_mob = "*"
+firefox = "<104"
+firefox_mob = "<104"
+ie = "*"
+ie_mob = "*"
+opera = "<83"
+op_mob = "<68"
+op_mini = "*"
+safari = "<15.4"
+ios_saf = "<15.4"
+samsung_mob = "<18.0"

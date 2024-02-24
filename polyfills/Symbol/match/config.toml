@@ -1,0 +1,21 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [ "Symbol" ]
+license = "MIT"
+spec = "http://www.ecma-international.org/ecma-262/6.0/index.html#sec-symbol.match"
+docs = "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Symbol"
+
+[browsers]
+android = "*"
+bb = "10 - *"
+chrome = "<50"
+edge = "*"
+edge_mob = "<14"
+firefox = "<40"
+firefox_mob = "<40"
+ie = "*"
+ie_mob = "*"
+opera = "<37"
+op_mob = "<37"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

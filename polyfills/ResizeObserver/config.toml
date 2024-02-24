@@ -1,0 +1,30 @@
+repo = "https://github.com/juggle/resize-observer/"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver"
+spec = "https://drafts.csswg.org/resize-observer-1"
+license = "Apache-2.0"
+dependencies = [
+	"WeakMap",
+	"MutationObserver",
+	"requestAnimationFrame",
+	"devicePixelRatio"
+]
+
+[browsers]
+android = "<5"
+chrome = "<64"
+edge = "*"
+edge_mob = "*"
+firefox = "<69"
+firefox_mob = "<79"
+ie = ">=9"
+ie_mob = "*"
+opera = "<51"
+op_mob = "<47"
+safari = "<13.1"
+ios_saf = "<13.4"
+samsung_mob = "<9.0"
+
+[install]
+module = "@juggle/resize-observer"
+paths = [ "lib/exports/resize-observer.umd.js" ]
+postinstall = "update.task.js"

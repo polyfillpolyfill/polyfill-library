@@ -1,0 +1,23 @@
+dependencies = [
+	"Reflect",
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.Type",
+	"_ESAbstract.ToPropertyKey",
+	"_ESAbstract.HasProperty"
+]
+spec = "https://tc39.github.io/ecma262/#sec-reflect.has"
+
+[browsers]
+android = "<5"
+bb = "*"
+chrome = "<49"
+firefox = "<42"
+firefox_mob = "<42"
+ie = "*"
+ie_mob = "*"
+opera = "<36"
+op_mob = "<36"
+op_mini = "*"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

@@ -1,0 +1,30 @@
+aliases = [ "es2023" ]
+dependencies = [
+	"_ESAbstract.ArrayCreate",
+	"_ESAbstract.CreateDataPropertyOrThrow",
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.Get",
+	"_ESAbstract.LengthOfArrayLike",
+	"_ESAbstract.ToObject",
+	"_ESAbstract.ToString",
+]
+license = "MIT"
+spec = "https://tc39.es/ecma262/#sec-array.prototype.toreversed"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<110"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "<96"
+op_mob = "<74"
+op_mini = "*"
+safari = "<16.3"
+ios_saf = "<16.3"
+samsung_mob = "*"

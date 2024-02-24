@@ -1,0 +1,18 @@
+dependencies = [ ]
+spec = "https://heycam.github.io/webidl/#es-forEach"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach"
+
+[browsers]
+android = "*"
+chrome = "<51"
+edge = "<16"
+edge_mob = "<16"
+firefox = "<50"
+firefox_mob = "<50"
+ie = "*"
+ie_mob = "*"
+opera = "<38"
+op_mob = "<41"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<5.0"

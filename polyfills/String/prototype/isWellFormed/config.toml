@@ -1,0 +1,27 @@
+aliases = [ "es2024" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.IsStringWellFormedUnicode",
+	"_ESAbstract.RequireObjectCoercible",
+	"_ESAbstract.ToString",
+]
+license = "MIT"
+spec = "https://tc39.es/ecma262/#sec-string.prototype.iswellformed"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/isWellFormed"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<111"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "<16.4"
+ios_saf = "<16.4"
+samsung_mob = "*"

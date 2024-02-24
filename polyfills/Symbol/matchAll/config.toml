@@ -1,0 +1,23 @@
+aliases = [ "es2020" ]
+dependencies = [
+  "Symbol",
+]
+license = "MIT"
+spec = "https://tc39.es/ecma262/#sec-symbol.matchall"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/matchAll"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<73"
+edge = "*"
+edge_mob = "*"
+firefox = "<67"
+firefox_mob = "<67"
+ie = "*"
+ie_mob = "*"
+opera = "<60"
+op_mob = "<52"
+safari = "<13.0"
+ios_saf = "<13.0"
+samsung_mob = "<11.0"

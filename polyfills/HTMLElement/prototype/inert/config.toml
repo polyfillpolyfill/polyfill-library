@@ -1,0 +1,35 @@
+dependencies = [
+	"Element.prototype.matches",
+	"Map",
+	"MutationObserver",
+	"Node.prototype.contains",
+	"Set",
+	"WeakMap"
+]
+aliases = [
+	# Polyfill was first created as "Element.prototype.inert" but the actual feature only exists on "HTMLElement"
+	# https://github.com/WICG/inert/issues/181
+	# TODO: [next major] remove this alias
+	"Element.prototype.inert"
+]
+license = "W3C"
+spec = "https://html.spec.whatwg.org/multipage/interaction.html#dom-inert"
+repo = "https://github.com/WICG/inert"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/inert"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<102"
+edge = "*"
+edge_mob = "*"
+firefox = "<104"
+firefox_mob = "<104"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<88"
+op_mob = "<70"
+op_mini = "*"
+safari = "<15.5"
+ios_saf = "<15.5"
+samsung_mob = "<19.0"

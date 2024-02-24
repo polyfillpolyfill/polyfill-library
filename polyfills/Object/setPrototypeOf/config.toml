@@ -1,0 +1,24 @@
+aliases = [ "es6", "es2015" ]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"Object.getOwnPropertyNames",
+	"Object.getOwnPropertyDescriptor"
+]
+license = "MIT"
+docs = "https://tc39.github.io/ecma262/#sec-object.setprototypeof"
+repo = "https://github.com/paulmillr/es6-shim/"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<34"
+firefox = "<31"
+firefox_mob = "<31"
+ie = ">=9"
+ie_mob = "*"
+opera = "<34"
+op_mob = "<21"
+op_mini = "*"
+safari = "<9.0"
+ios_saf = "<9.0"
+samsung_mob = "<1.6"

@@ -1,0 +1,37 @@
+dependencies = [
+	"Intl.getCanonicalLocales",
+	"Intl.Locale",
+	"Object.assign",
+	"Object.keys",
+	"Object.setPrototypeOf",
+	"WeakMap",
+]
+license = "MIT"
+spec = "https://tc39.es/proposal-intl-relative-time/#sec-intl-listformat-constructor"
+repo = "https://github.com/formatjs/formatjs/tree/master/packages/intl-listformat/polyfill.js"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/listformat"
+notes = [
+	"Locales must be specified separately by prefixing the locale name with `Intl.ListFormat.~locale`, eg `Intl.ListFormat.~locale.en-GB`.",
+	"Safari 16 is the first version that isn't installable on macOS Catalina. macOS Catalina and older do not include OS level dependencies for this feature"
+]
+
+[browsers]
+android = "*"
+chrome = "<72"
+edge = "*"
+edge_mob = "*"
+firefox = "<78"
+firefox_mob = "<79"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<60"
+op_mob = "<51"
+safari = "<16.0"
+ios_saf = "<14.5"
+samsung_mob = "<11.0"
+
+[install]
+module = "@formatjs/intl-listformat"
+paths = [ "polyfill.iife.js" ]
+postinstall = "update.task.js"
+clean = [ "~locale", "polyfill.js" ]

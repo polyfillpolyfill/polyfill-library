@@ -1,0 +1,26 @@
+aliases = ["es2022"]
+dependencies = [
+	"_ESAbstract.CreateMethodProperty",
+	"_ESAbstract.HasOwnProperty",
+	"_ESAbstract.ToObject",
+	"_ESAbstract.ToPropertyKey",
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn"
+spec = "https://tc39.es/ecma262/#sec-object.hasown"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<93"
+edge = "*"
+edge_mob = "*"
+firefox = "<92"
+firefox_mob = "<92"
+ie = "*"
+ie_mob = "*"
+opera = "<79"
+op_mob = "<66"
+op_mini = "*"
+safari = "<15.4"
+ios_saf = "<15.4"
+samsung_mob = "<17.0"

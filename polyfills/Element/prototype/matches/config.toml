@@ -1,0 +1,29 @@
+aliases = [
+	"default-3.3",
+	"default-3.4",
+	"default-3.5",
+	"default-3.6",
+	"default",
+	"caniuse:matchesselector",
+	"blissfuljs"
+]
+dependencies = [ ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Element/matches"
+spec = "http://dom.spec.whatwg.org/#dom-element-matches"
+
+[browsers]
+android = "<4.4.4"
+bb = "*"
+chrome = "<34"
+edge = "<15"
+edge_mob = "<15"
+firefox = "<34"
+firefox_mob = "<34"
+ie = ">=6"
+ie_mob = ">=10"
+opera = "<21"
+op_mob = "<33"
+op_mini = "*"
+safari = "<8.0"
+ios_saf = "<8.0"
+samsung_mob = "<2.0"

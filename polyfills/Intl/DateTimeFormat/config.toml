@@ -1,0 +1,46 @@
+aliases = [
+	"Intl",
+	"Intl.DateTimeFormat.prototype.formatToParts"
+]
+dependencies = [
+	"Intl.getCanonicalLocales",
+	"Intl.Locale",
+	"Intl.NumberFormat",
+	"Object.assign",
+	"Object.keys",
+	"Object.setPrototypeOf",
+	"Set",
+	"WeakMap"
+]
+license = "MIT"
+spec = "https://tc39.es/ecma402/#datetimeformat-objects"
+repo = "https://github.com/formatjs/formatjs/tree/master/packages/intl-datetimeformat"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+notes = [
+	"Locales must be specified separately by prefixing the locale name with `Intl.DateTimeFormat.~locale`, eg `Intl.DateTimeFormat.~locale.en-GB`."
+]
+
+# Browser compatibility list for Int.DateTimeFormat.~timeZone.all and Int.DateTimeFormat.~timeZone.golden must match this one, update both if a change is needed here.
+[browsers]
+android = "*"
+chrome = "<76"
+edge = "*"
+edge_mob = "*"
+firefox = "<91"
+firefox_mob = "<91"
+ie = ">=9"
+ie_mob = ">=9"
+opera = "<63"
+op_mob = "<54"
+safari = "<14.1"
+ios_saf = "<14.5"
+samsung_mob = "<12.0"
+
+[install]
+module = "@formatjs/intl-datetimeformat"
+paths = [ "polyfill.iife.js" ]
+postinstall = "update.task.js"
+clean = [
+	"~locale",
+	"polyfill.js",
+]

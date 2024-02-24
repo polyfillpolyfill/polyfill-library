@@ -1,0 +1,1 @@
+"ResizeObserver" in self

@@ -1,0 +1,21 @@
+aliases = [ ]
+dependencies = [ ]
+spec = "https://dom.spec.whatwg.org/#dom-element-toggleattribute"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<69"
+edge = "<18"
+edge_mob = "<18"
+firefox = "<63"
+firefox_mob = "<63"
+ie = "*"
+ie_mob = "*"
+opera = "<56"
+op_mob = "<51"
+op_mini = "*"
+safari = "<12.0"
+ios_saf = "<12.0"
+samsung_mob = "<10.0"

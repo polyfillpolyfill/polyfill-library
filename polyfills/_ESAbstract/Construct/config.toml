@@ -1,0 +1,22 @@
+dependencies = [
+	"_ESAbstract.IsConstructor",
+	"_ESAbstract.OrdinaryCreateFromConstructor",
+]
+spec = "https://tc39.github.io/ecma262/#sec-construct"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "*"
+edge = "*"
+edge_mob = "*"
+firefox = "*"
+firefox_mob = "*"
+ie = "*"
+ie_mob = "*"
+opera = "*"
+op_mob = "*"
+op_mini = "*"
+safari = "*"
+ios_saf = "*"
+samsung_mob = "*"

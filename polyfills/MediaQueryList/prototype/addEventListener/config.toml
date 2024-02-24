@@ -1,0 +1,29 @@
+aliases = [
+	"MediaQueryList.prototype.removeEventListener",
+]
+
+dependencies = [
+	"matchMedia",
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList"
+spec = "http://dev.w3.org/csswg/cssom-view/#the-mediaquerylist-interface"
+license = "MIT"
+notes = [
+	"Does not implement the full EventTarget interface. Misses 'dispatchEvent', 'capture' option.",
+	"Does not differentiate between listeners added with different options.",
+	"onchange property only works in browsers with Object setter support."
+]
+
+[browsers]
+android = "*"
+chrome = "<39"
+edge = "<16"
+firefox = "<55"
+firefox_mob = "<55"
+ie = "*"
+opera = "<26"
+op_mob = "<26"
+op_mini = "*"
+safari = "<14.0"
+ios_saf = "<14.0"
+samsung_mob = "<4.0"

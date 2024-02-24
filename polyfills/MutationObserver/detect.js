@@ -1,0 +1,1 @@
+"MutationObserver" in self

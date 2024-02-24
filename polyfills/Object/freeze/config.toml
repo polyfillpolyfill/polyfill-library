@@ -1,0 +1,18 @@
+aliases = [ "es5" ]
+dependencies = [ "_ESAbstract.CreateMethodProperty" ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<6"
+firefox = "<4"
+firefox_mob = "*"
+ie = "<9"
+ie_mob = "*"
+opera = "<12"
+op_mob = "<12"
+op_mini = "*"
+safari = "<5.1"
+ios_saf = "<6.0"
+samsung_mob = "<6.0"

@@ -1,0 +1,1 @@
+'atob' in self

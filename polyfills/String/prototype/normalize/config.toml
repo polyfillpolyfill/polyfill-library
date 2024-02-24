@@ -1,0 +1,24 @@
+dependencies = [ ]
+license = "MIT"
+spec = "https://tc39.github.io/ecma262/#sec-string.prototype.normalize"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize"
+
+[browsers]
+android = "<5"
+bb = "*"
+chrome = "<34"
+firefox = "<31"
+firefox_mob = "<31"
+ie = "*"
+ie_mob = "*"
+opera = "<21"
+op_mob = "<21"
+op_mini = "*"
+safari = "<10.0"
+ios_saf = "<10.0"
+samsung_mob = "<2.0"
+
+[install]
+module = "unorm"
+paths = [ "lib/unorm.js" ]
+postinstall = "update.task.js"

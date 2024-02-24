@@ -1,0 +1,21 @@
+aliases = [ ]
+dependencies = [
+	"Symbol",
+	"String.prototype.trim",
+	"_ESAbstract.Type"
+]
+license = "MIT"
+spec = "https://tc39.github.io/proposal-Symbol-description/"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/description"
+
+[browsers]
+chrome = "49 - 69"
+edge = "13 - 18"
+edge_mob = "13 - 18"
+firefox = "36 - 62"
+firefox_mob = "36 - 62"
+opera = "37 - 56"
+op_mob = "43 - 48"
+safari = "9.0 - 12.0"
+ios_saf = "9.0 - 12.0"
+samsung_mob = "5.0 - 9.4"

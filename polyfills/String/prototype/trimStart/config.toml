@@ -1,0 +1,21 @@
+aliases = [ "es2019" ]
+dependencies = [ "_ESAbstract.CreateMethodProperty", "_ESAbstract.TrimString" ]
+spec = "https://tc39.github.io/ecma262/#sec-string.prototype.trimstart"
+docs = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart"
+
+[browsers]
+android = "*"
+bb = "*"
+chrome = "<66"
+edge = "*"
+edge_mob = "*"
+firefox = "<61"
+firefox_mob = "<61"
+ie = "*"
+ie_mob = "*"
+opera = "<53"
+op_mob = "<47"
+op_mini = "*"
+safari = "<12.1"
+ios_saf = "<12.2"
+samsung_mob = "<9.0"

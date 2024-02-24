@@ -1,0 +1,21 @@
+aliases = [ ]
+dependencies = [ ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon"
+spec = "https://w3c.github.io/beacon/#sec-sendBeacon-method"
+repo = "https://github.com/miguelmota/Navigator.sendBeacon"
+license = "MIT"
+
+[browsers]
+android = "<5"
+chrome = "<39"
+edge = "<14"
+edge_mob = "<14"
+firefox = "<31"
+firefox_mob = "<31"
+ie = "*"
+ie_mob = "*"
+opera = "<26"
+op_mob = "<26"
+safari = "<11.1"
+ios_saf = "<11.3"
+samsung_mob = "<4.0"

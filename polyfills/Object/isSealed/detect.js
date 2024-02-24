@@ -1,0 +1,1 @@
+'isSealed' in Object

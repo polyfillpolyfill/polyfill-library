@@ -1,0 +1,22 @@
+dependencies = [
+	"DOMTokenList",
+	"Element.prototype.classList"
+]
+spec = "https://dom.spec.whatwg.org/#interface-domtokenlist"
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/forEach"
+license = "MIT"
+
+[browsers]
+android = "*"
+chrome = "<42"
+edge = "<16"
+edge_mob = "<16"
+firefox = "<50"
+firefox_mob = "<50"
+ie = "*"
+ie_mob = "*"
+opera = "<32"
+op_mob = "<32"
+safari = "<10.1"
+ios_saf = "<10.3"
+samsung_mob = "<5.0"

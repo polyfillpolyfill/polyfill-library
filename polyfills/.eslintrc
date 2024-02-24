@@ -1,0 +1,51 @@
+{
+	"extends": "eslint:recommended",
+	"env": {
+		"es6": false,
+		"browser": true,
+		"node": false
+	},
+	"parserOptions": {
+		"ecmaVersion": 3,
+		"sourceType": "script"
+	},
+	"rules": {
+		"comma-dangle": ["error", "never"],
+		"quote-props": ["error", "as-needed", { "keywords": true }],
+		"dot-notation": ["error"],
+		"radix": "error",
+		"no-catch-shadow": "error",
+		"no-dupe-else-if": "error",
+		"no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+	},
+	"plugins": [
+		"uncalled-iife"
+	],
+	"overrides": [
+		{
+			"files": ["update.task.js"],
+			"parserOptions": {
+				"ecmaVersion": 2018
+			},
+			"env": {
+				"es6": true,
+				"browser": false,
+				"node": true
+			}
+		},
+		{
+			"files": ["tests.js", "test/*"],
+			"env": {
+				"mocha": true,
+				"browser": true
+			}
+		},
+		{
+			"files": ["detect.js"],
+			"rules": {
+				"uncalled-iife/uncalled-iife": "error"
+			}
+		}
+	],
+	"root": true
+}

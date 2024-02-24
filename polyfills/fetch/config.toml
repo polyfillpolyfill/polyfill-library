@@ -1,0 +1,33 @@
+dependencies = [
+	"Object.getOwnPropertyNames",
+	"Promise",
+	"Symbol.iterator",
+	"URL"
+]
+license = "MIT"
+spec = "https://fetch.spec.whatwg.org/"
+repo = "https://github.com/github/fetch"
+notes = [
+	"Makes use of FormData, FileReader and Blob if they exist. Readable streams not supported. CORS (Cross Origin Resource Sharing) requests do not work in IE 9 or lower."
+]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch"
+
+[browsers]
+android = "*"
+bb = "10 - *"
+chrome = "<66"
+edge = "<16"
+edge_mob = "<16"
+firefox = "<57"
+firefox_mob = "<64"
+ie = "*"
+ie_mob = "*"
+opera = "<53"
+op_mob = "<47"
+safari = "<12.1"
+ios_saf = "<12.2"
+samsung_mob = "<9.0"
+
+[install]
+module = "whatwg-fetch"
+postinstall = "update.task.js"

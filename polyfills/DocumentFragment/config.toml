@@ -1,0 +1,20 @@
+aliases = [ ]
+dependencies = [ ]
+docs = "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+spec = "https://dom.spec.whatwg.org/#interface-documentfragment"
+notes = [ ]
+
+[browsers]
+android = "<4.4"
+chrome = "<29"
+edge = "<17"
+firefox = "<24"
+firefox_mob = "<24"
+ie = "*"
+ie_mob = "*"
+opera = "<16"
+op_mob = "<16"
+op_mini = "*"
+safari = "<8.0"
+ios_saf = "<8.0"
+samsung_mob = "<2.0"
